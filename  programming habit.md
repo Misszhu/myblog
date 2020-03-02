@@ -15,3 +15,28 @@ var message = 'hi',
 ```
 
 虽然代码里的换行和变量缩进不是必需的，但这样做可以提高可读性。
+
+4.合理利用注释便于给代码划分模块，提高可读性，便于管理；定义函数时要注释清楚变量&函数的含义与作用。
+```
+/** ======================= 模块划分说明 =============================== */
+/**
+ * 函数说明
+ * @param {params1} 参数1说明
+ * @param {params2} 参数2说明
+ * @param {params3} 参数3说明
+ */
+export const function = ({params1, params2, params3}) =>
+  axios.$post('url', {
+    params1,
+    params2,
+    params3
+  })
+```
+5.消除魔法数字
+```
+//正例
+const WIDTH = 200;
+const Dialog = new Dialog(WIDTH);
+//反例
+const Dialog = new Dialog(200);
+```
