@@ -334,7 +334,7 @@ Node.js有它自己的 CommonJS 模块格式，与 ES6 模块格式是不兼容�
 
 参考链接
 
-[阮一峰ECMAScript 6 入门]: https://es6.ruanyifeng.com/#docs/module
-[JavaScript 标准参考教程（alpha）]: http://www.w3cbus.com/nodejs/module.html
-[JavaScript模块化编程]: http://www.ruanyifeng.com/blog/2012/11/require_js.html
-[MDN]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export
+[阮一峰ECMAScript 6 入门](https://es6.ruanyifeng.com/#docs/module)
+[JavaScript 标准参考教程（alpha）](http://www.w3cbus.com/nodejs/module.html)
+[JavaScript模块化编程](http://www.ruanyifeng.com/blog/2012/11/require_js.html)
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export)
