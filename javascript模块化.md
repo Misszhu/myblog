@@ -4,20 +4,20 @@
 
 作为一个前端工程师，我们在项目中经常看到下面这样的代码：
 
-```javascript
+```javascript  
 import {JSEncrypt} from 'jsencrypt';
 import formatDate from '@/const/filter';
 export const merchants = `${basicUrl}/merchants`;
 ```
 
 ```javascript
-const path = require('path');
+const path = require('path'); 
 module.exports = {};
 ```
 
 大部分人可能都大概了解以上代码的意思是 **导入（引用）** or  **导出**一些代码块。但是大家有没有想过，同样是导入、导出功能，为什么一个项目中常常能同时看到`import`和 `require`呢？他们又有什么区别的呢？
 
-要回答这些问题，我们首先要对JavaScript模块化有一个大体的了解。阮一峰老师的[JavaScript模块化编程系列文章](http://www.ruanyifeng.com/blog/2012/11/require_js.html)对JavaScript模块化的起源和目前主流的模块化规范都做了介绍，建议大家先去了解这部分内容。
+要回答这些问题，我们首先要对JavaScript模块化有一个大体的了解。阮一峰老师的[JavaScript模块化编程系列文章](http://www.ruanyifeng.com/blog/2012/11/require_js.html)对JavaScript模块化的起源和目前主流的模块化规范都做了介绍，建议大家先了解这部分内容。
 
 ## 模块化规范
 
