@@ -10,7 +10,7 @@
 
 本文又臭又长，先祭出一张思维导图交代清楚我到底乱七八糟说了啥：
 
-<img src="/Users/zhuhuiting/Desktop/截屏2020-10-29 下午3.42.58.png" alt="截屏2020-10-29 下午3.42.58" style="zoom:50%;" />
+![image](https://github.com/Misszhu/myblog/raw/master/HTTP/image/HTTP1.png)
 
 ### 客户端和服务器
 
@@ -28,7 +28,7 @@ URL是URI的其中一种实现形式。什么意思呢？先看一个假想的�
 
 在现实世界中，几乎所有的URI都是URL，并不需要对URL和URI进行严格的区分。下面是URL的完整结构：
 
-![截屏2020-10-28 上午11.02.40](/Users/zhuhuiting/Desktop/截屏2020-10-28 上午11.02.40.png)
+![image](https://github.com/Misszhu/myblog/raw/master/HTTP/image/HTTP2.png)
 
 | 关键字   | 解释                                                         |
 | -------- | ------------------------------------------------------------ |
@@ -71,9 +71,7 @@ HTTP报文的组成结构如下：
 
 浏览器打开百度首页www.baidu.com（请求百度首页的HTML资源，数据量很大，删减了大部分报文数据，只作展示用）：
 
-<img src="/Users/zhuhuiting/Desktop/截屏2020-10-28 下午5.10.20.png" alt="截屏2020-10-28 下午5.10.20" style="zoom:50%;" />
-
-在上图中，浏览器发送了一条HTTP请求报文，起始行有个GET命令，表明该请求使用GET方法获取资源，资源对应的位置在 `/`，HTTP协议版本号为1.1。GET请求报文没有主体。
+![image](https://github.com/Misszhu/myblog/raw/master/HTTP/image/HTTP3.png)在上图中，浏览器发送了一条HTTP请求报文，起始行有个GET命令，表明该请求使用GET方法获取资源，资源对应的位置在 `/`，HTTP协议版本号为1.1。GET请求报文没有主体。
 
 服务器会返回一条HTTP响应报文。响应起始行也包含了HTTP协议版本号、一个成功状态码（200）以及一个描述性的原因短语（OK）。响应首部字段描述了响应主体的详细信息：其中**Content-Type**首部说明了响应主体的MIME类型，**Date**首部说明了响应的时间。在响应起始行和响应首部后面跟着的就是响应主体。
 

@@ -37,7 +37,9 @@ HTTP 是使用 TCP三次握手建立连接的。TCP 是传输层的协议，而�
 
 双方进入**ESTABLISHED**状态，说明连接已经建立，接下来开始进行真正的通信。
 
-上图体会一下。
+上图体会一下:
+
+![image](https://github.com/Misszhu/myblog/raw/master/HTTP/image/HTTP-HTTPS1.png)
 
 
 
@@ -46,6 +48,8 @@ HTTP 是使用 TCP三次握手建立连接的。TCP 是传输层的协议，而�
 1. 喂喂喂，你听得到吗？
 2. 听得到，你听得到我说？
 3. 听到听到，我们开始说话吧！
+
+![image](https://github.com/Misszhu/myblog/raw/master/HTTP/image/HTTP-HTTPS2.png)
 
 是不是很啰嗦~~有事就不能直说吗，其实TCP这样做是有他的道理的，互联网是开放环境，通信双方都是未知身份，为了保证通信过程的安全，先确认身份再进行通信的步骤是非常有必要的。
 
@@ -63,7 +67,7 @@ HTTPS请求的整体流程是这样的：
 
 再结合一张流程图感受一下整个过程：
 
-
+![image](https://github.com/Misszhu/myblog/raw/master/HTTP/image/HTTP-HTTPS3.png)
 
 ## 非对称加密和对称加密
 
