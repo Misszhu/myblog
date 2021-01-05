@@ -41,8 +41,6 @@ HTTP 是使用 TCP三次握手建立连接的。TCP 是传输层的协议，而�
 
 ![image](https://github.com/Misszhu/myblog/raw/master/HTTP/image/HTTP-HTTPS1.png)
 
-
-
 如果用我们平时的对话模拟三次握手，阿婷看了对话过程简直想打人：
 
 1. 喂喂喂，你听得到吗？
