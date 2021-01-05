@@ -65,9 +65,9 @@ etc.
 </div>
 ```
 
-
-
 [在线运行传送门](https://jsfiddle.net/zhuhuiting/b7kz8ap4/25/)
+
+![image](https://github.com/Misszhu/myblog/raw/master/CSS/image/BFC1.png)
 
 回顾我们上面说到的第一条 BFC 的特性：
 
@@ -114,9 +114,9 @@ BFC 的属性第二条：
 <div class="box2"></div>
 ```
 
-<img src="/Users/zhuhuiting/Documents/未命名_截屏2020-09-05 下午2.07.20.png" alt="未命名_截屏2020-09-05 下午2.07.20" style="zoom: 50%;" />
+运行效果：
 
-既然属于同一个 BFC 的相邻块级元素才会发生外边距塌陷，那我们把其中一个块级元素变为 BFC 即可：
+![image](https://github.com/Misszhu/myblog/raw/master/CSS/image/BFC2.png)既然属于同一个 BFC 的相邻块级元素才会发生外边距塌陷，那我们把其中一个块级元素变为 BFC 即可：
 
 ```html
 <style type="text/css">
@@ -142,9 +142,9 @@ BFC 的属性第二条：
 </div>
 ```
 
-<img src="/Users/zhuhuiting/Documents/未命名_截屏2020-09-05 下午1.52.48.png" alt="未命名_截屏2020-09-05 下午1.52.48" style="zoom:50%;" />
+运行效果：
 
-[在线运行传送门](https://jsfiddle.net/zhuhuiting/kgz84xea/19/)
+![image](https://github.com/Misszhu/myblog/raw/master/CSS/image/BFC3.png)
 
 ##### 嵌套元素的margin重叠
 
@@ -173,11 +173,11 @@ BFC 的属性第二条：
 </div>
 ```
 
-<img src="/Users/zhuhuiting/Documents/未命名_截屏2020-09-05 下午2.51.54.png" alt="未命名_截屏2020-09-05 下午2.51.54" style="zoom:50%;" />
+![image](https://github.com/Misszhu/myblog/raw/master/CSS/image/BFC4.png)
 
 这时我们想办法把父块元素变成 BFC，就能解决外边距重叠的问题。（把上面示例代码的注释去掉即可）。运行效果：
 
-<img src="/Users/zhuhuiting/Documents/未命名_截屏2020-09-05 下午2.58.30.png" alt="未命名_截屏2020-09-05 下午2.58.30" style="zoom:50%;" />
+![image](https://github.com/Misszhu/myblog/raw/master/CSS/image/BFC5.png)
 
 [在线运行传送门](https://jsfiddle.net/zhuhuiting/vken1dcL/14/)
 
@@ -213,11 +213,11 @@ BFC 的属性第二条：
 
 运行效果：
 
-<img src="/Users/zhuhuiting/Desktop/截屏2020-09-05 下午3.36.28.png" alt="截屏2020-09-05 下午3.36.28" style="zoom:50%;" />
+![image](https://github.com/Misszhu/myblog/raw/master/CSS/image/BFC6.png)
 
 不出我们所料，float 属性为 left 的盒子，会脱离标准文档流，遮挡住部分 main 盒子的内容。这不是我们想要的。不过由于**BFC 的区域不会与 float 的元素区域重叠**，把 main 盒子 设置成 BFC，aside 盒子 和 main 盒子就不会重叠了（参考实现方式：把示例代码注释去掉即可）。运行结果：
 
-<img src="/Users/zhuhuiting/Desktop/截屏2020-09-05 下午3.41.48.png" alt="截屏2020-09-05 下午3.41.48" style="zoom:50%;" />
+![image](https://github.com/Misszhu/myblog/raw/master/CSS/image/BFC7.png)
 
 ## 总结
 
